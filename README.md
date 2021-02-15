@@ -8,11 +8,13 @@ The following bulletpoints are in focus:
 
 -  
 
+-----
+
 ## Data sources:
 [Capital bikeshare](https://www.capitalbikeshare.com/system-data)
 
 ## File description:
-------
+[Data from 2011-12](https://github.com/davidellavalle/Capital-Bikeshare/tree/main/2011-12): Insights on bike share usage between 2011 and 2012  
 
 
 
