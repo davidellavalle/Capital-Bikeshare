@@ -21,8 +21,8 @@ python framework - integrate your web framework
 web server interface for python - bridging the backend to the user interface
 app:app -> if I call the App Davide it will be Davide:app
 
-Requirements
-libraries that we used in my app and the gunicorn that connects
+## Requirements
+A list of Libraries used for the creation of the app and the gunicorn that connects.......
 
 sample.ipynb is the anylzsis of the data, the data trasnforming etc  to the creation of the model
 
