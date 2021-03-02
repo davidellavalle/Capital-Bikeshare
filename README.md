@@ -1,5 +1,7 @@
 # -Capital-Bikeshare
 
+![alt text](https://thumbs.dreamstime.com/b/september-washington-dc-close-up-capital-bikeshare-bike-rental-system-residents-tourists-district-columbia-141486725.jpg)
+
 ## Introduction:
 The project analysis is based on data pulled from Capital Bikeshare, a company that offers bicycle sharing system in Washington, D.C.  
 The goal of the project is to find interesting paths about the User behaviour and the demand of services in the different seasons and months of the year, as well as day of the week or hours of the day. The data and results will be then used, with the assistance machine learning methods, to provide the company with useful and meaningful insights on their business, give KPI's suggestions to measure their business and future growth.  
