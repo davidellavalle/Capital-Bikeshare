@@ -8,7 +8,10 @@ The goal of the project is to find interesting paths about the User behaviour an
 
 The following bulletpoints are in focus:
 
--  
+-  Member type - Casual vs Member, customer behaviour on usage of bikeshare
+-  Peaks during time - Annually (seasonality), weekdays, hourly (most requested hour of the days)
+-  Most used Dock stations
+-  Decrease and customer behaviour change with Impact of Covid.
 
 -----
 
