@@ -71,3 +71,7 @@ For this project I developed a simple app that predicts the bikes demand in the 
 
 ## File description:
 [Data from 2011-12](https://github.com/davidellavalle/Capital-Bikeshare/tree/main/2011-12): hourly and daily count of rental bikes along with the weather information for a period of 24 months (2011-12)
+
+### Legal Terms:
+
+All data has been used only for educational purposes
