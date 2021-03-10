@@ -2,11 +2,13 @@
 
 ## Table of contents
 
-[Project Introduction](https://github.com/davidellavalle/Python-day-5#tools)
-[Project Introduction](https://github.com/davidellavalle/Python-day-5#tools)
-[Project Introduction](https://github.com/davidellavalle/Python-day-5#tools)
-[Project Introduction](https://github.com/davidellavalle/Python-day-5#tools)
-[Project Introduction](https://github.com/davidellavalle/Python-day-5#tools)
+* [Project Introduction]()  
+* [Bikesharing - the domain]()
+* [Exploratory analysis]()
+* [Timeseries - Facebook Prophet]()
+* [Flask App]()
+* [Data sources]()
+* [Legal Terms]()
 
 ![alt text](https://thumbs.dreamstime.com/b/september-washington-dc-close-up-capital-bikeshare-bike-rental-system-residents-tourists-district-columbia-141486725.jpg)
 
@@ -28,7 +30,7 @@ The project will focus on the following bulletpoints:
 - Most used Dock stations
 - The Impact of Covid on bike demand
 
-## Bikesharing
+## Bikesharing - the domain
 
 Bike sharing is a concept originating back to the 1960s when in Amsterdam the first bike share system "White Bikes" was implemented. 
 
