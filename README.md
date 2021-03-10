@@ -1,5 +1,10 @@
 # -Capital-Bikeshare
 
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/73824871/110596895-2c106100-8180-11eb-948e-7bc0658286f6.png">
+</p> 
+
 ## Table of contents
 
 * [Project Introduction](https://github.com/davidellavalle/Capital-Bikeshare/blob/main/README.md#project-introduction)  
@@ -9,12 +14,6 @@
 * [Flask App](https://github.com/davidellavalle/Capital-Bikeshare/blob/main/README.md#flask-app---to-be-extended)
 * [Data sources](https://github.com/davidellavalle/Capital-Bikeshare/blob/main/README.md#data-sources)
 * [Legal Terms](https://github.com/davidellavalle/Capital-Bikeshare/blob/main/README.md#legal-terms)
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/73824871/110596895-2c106100-8180-11eb-948e-7bc0658286f6.png">
-</p> 
-
-  
   
 ## Project Introduction
 
