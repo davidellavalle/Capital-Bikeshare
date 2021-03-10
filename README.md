@@ -1,8 +1,16 @@
 # -Capital-Bikeshare
 
+## Table of contents
+
+[Project Introduction](https://github.com/davidellavalle/Python-day-5#tools)
+[Project Introduction](https://github.com/davidellavalle/Python-day-5#tools)
+[Project Introduction](https://github.com/davidellavalle/Python-day-5#tools)
+[Project Introduction](https://github.com/davidellavalle/Python-day-5#tools)
+[Project Introduction](https://github.com/davidellavalle/Python-day-5#tools)
+
 ![alt text](https://thumbs.dreamstime.com/b/september-washington-dc-close-up-capital-bikeshare-bike-rental-system-residents-tourists-district-columbia-141486725.jpg)
 
-## Introduction
+## Project Introduction
 
 The project analysis is based on data pulled from Capital Bikeshare, a company that offers a bicycle sharing system in Washington, D.C.   
 The goal of the project is to find interesting paths about the User behaviour and the demand of services in the different seasons and months of the year, as well as day of the week or hours of the day. The data and results will be then used to provide the company with useful and meaningful insights on their business and give KPI's suggestions to measure the business and ensure future growth.  
@@ -33,13 +41,10 @@ The development of this business model was anyway slow to catch on until better 
 Nowadays the bike sharing is booming at an unprecedented rate, largely due to the reasonably low cost of the schemes, and how easy they are to implement compared with other transport infrastructure.
 The bike sharing market size has been valued at over $4 billion in 2018 with an estimated growth of 15% CAGR(Compounded Average Growth Rate) from 2019 to 2025.
 
-## Data sources
-
-All data was retrieved directly from [Capital bikeshare](https://www.capitalbikeshare.com/system-data) website.
-
 ## Exploratory analysis
 
-At first the focus was on the data for the years 2011-12, then more current data (2018, 2019 and March 2020) was downloaded. After some basic cleaning I have proceeded with several visualizations using different plots that lead me to discover the following paths:
+At first the focus was on the data for the years 2011-12, then more current data (2018, 2019 and March 2020) was taken into account.  
+After some basic cleaning I have proceeded with visualizations using different plots like barplots, scatterplots and lineplotsthat that lead me to discover the following paths:
 
 1. Weather conditions and temperatures have a great impact on the use of Bike sharing.  
 While the demand is high with sunny or cloudy days, there is a significant drop in case of rain and no use at all in case of storms.  
@@ -51,9 +56,7 @@ Casual members show instead a much more touristic use of bikes since their rides
 4. The Duration of the rides doesn't show any particular trend during normal working days but it is significantly longer during weekends.  
 Finally most of the rides seem to have a duration between 3 and 14 minutes.
 5. Covid brought a notable decrease in number of rides (-40% March 19 to March 20). The main drops are to be found after 15th of March when remote work was introduced in Washington Dc and 24th of March when all "Non-essential" Dc Businesses were ordered closed by the Mayor.
-
-
-2020 to be added - More casual than members
+6. More considerations on the year 2020 will be added soon. From previous analysis 2020 shows a change in customer behaviour (more Casual than members) demarking how unpredictable events (Covid) have a major influence on the demand of these services and the development of a business. 
 
 ## Timeseries - Facebook Prophet
 
@@ -61,16 +64,16 @@ Facebook’s Prophet is a library designed to do Time Series forecasting and sup
 The predicting model has been fed with the data of 2018 and 2019 and it is providing predictions for the first 6 months of 2020.  
 This data was picked because Covid had not yet affected our society and I wanted to show the power of this tool in a standard/normal situation, where no unpredictable events had happened yet. This could be as well seen as a limit of predicting models.
 
-## Flask App
+## Flask App - to be extended
 
 Flask is a micro web framework written in python and used in web development. The term 'microframework' means it does not require particular tools or libraries.
 
 For this project I developed a simple app that predicts the bikes demand in the different hours and days of the year depending on the month, weekday, time, wether the day is a holiday or not and type of customers (member or casual). The app was then deployed using Heroku and can be found easily by clicking on this link.
 
+## Data sources
 
+All data was retrieved directly from [Capital bikeshare](https://www.capitalbikeshare.com/system-data) website.
 
-## File description:
-[Data from 2011-12](https://github.com/davidellavalle/Capital-Bikeshare/tree/main/2011-12): hourly and daily count of rental bikes along with the weather information for a period of 24 months (2011-12)
 
 ### Legal Terms:
 
