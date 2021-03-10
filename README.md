@@ -56,7 +56,8 @@ Casual members show instead a much more touristic use of bikes since their rides
 4. The Duration of the rides doesn't show any particular trend during normal working days but it is significantly longer during weekends.  
 Finally most of the rides seem to have a duration between 3 and 14 minutes.
 5. Covid brought a notable decrease in number of rides (-40% March 19 to March 20). The main drops are to be found after 15th of March when remote work was introduced in Washington Dc and 24th of March when all "Non-essential" Dc Businesses were ordered closed by the Mayor.
-6. More considerations on the year 2020 will be added soon. From previous analysis 2020 shows a change in customer behaviour (more Casual than members) demarking how unpredictable events (Covid) have a major influence on the demand of these services and the development of a business. 
+6. More considerations on the year 2020 will be added soon.  
+From previous analysis 2020 shows a change in customer behaviour (more Casual than members) demarking how unpredictable events (Covid) have a major influence on the demand of these services and the development of a business. 
 
 ## Timeseries - Facebook Prophet
 
