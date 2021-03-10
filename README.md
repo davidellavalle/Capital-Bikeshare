@@ -10,8 +10,12 @@
 * [Data sources](https://github.com/davidellavalle/Capital-Bikeshare/blob/main/README.md#data-sources)
 * [Legal Terms](https://github.com/davidellavalle/Capital-Bikeshare/blob/main/README.md#legal-terms)
 
-![alt text](https://thumbs.dreamstime.com/b/september-washington-dc-close-up-capital-bikeshare-bike-rental-system-residents-tourists-district-columbia-141486725.jpg)
+<p align="center">
+  <img src="https://thumbs.dreamstime.com/b/september-washington-dc-close-up-capital-bikeshare-bike-rental-system-residents-tourists-district-columbia-141486725.jpg">
+</p> 
 
+  
+  
 ## Project Introduction
 
 The project analysis is based on data pulled from Capital Bikeshare, a company that offers a bicycle sharing system in Washington, D.C.   
