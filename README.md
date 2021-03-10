@@ -2,13 +2,13 @@
 
 ## Table of contents
 
-* [Project Introduction]()  
-* [Bikesharing - the domain]()
-* [Exploratory analysis]()
-* [Timeseries - Facebook Prophet]()
-* [Flask App]()
-* [Data sources]()
-* [Legal Terms]()
+* [Project Introduction](https://github.com/davidellavalle/Capital-Bikeshare/blob/main/README.md#project-introduction)  
+* [Bikesharing - the domain](https://github.com/davidellavalle/Capital-Bikeshare/blob/main/README.md#bikesharing---the-domain)
+* [Exploratory analysis](https://github.com/davidellavalle/Capital-Bikeshare/blob/main/README.md#exploratory-analysis)
+* [Timeseries - Facebook Prophet](https://github.com/davidellavalle/Capital-Bikeshare/blob/main/README.md#timeseries---facebook-prophet)
+* [Flask App](https://github.com/davidellavalle/Capital-Bikeshare/blob/main/README.md#flask-app---to-be-extended)
+* [Data sources](https://github.com/davidellavalle/Capital-Bikeshare/blob/main/README.md#data-sources)
+* [Legal Terms](https://github.com/davidellavalle/Capital-Bikeshare/blob/main/README.md#legal-terms)
 
 ![alt text](https://thumbs.dreamstime.com/b/september-washington-dc-close-up-capital-bikeshare-bike-rental-system-residents-tourists-district-columbia-141486725.jpg)
 
