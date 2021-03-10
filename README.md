@@ -1,15 +1,20 @@
 # -Capital-Bikeshare
 
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/73824871/110596895-2c106100-8180-11eb-948e-7bc0658286f6.png">
+</p> 
+
 ## Table of contents
 
-[Project Introduction](https://github.com/davidellavalle/Python-day-5#tools)
-[Project Introduction](https://github.com/davidellavalle/Python-day-5#tools)
-[Project Introduction](https://github.com/davidellavalle/Python-day-5#tools)
-[Project Introduction](https://github.com/davidellavalle/Python-day-5#tools)
-[Project Introduction](https://github.com/davidellavalle/Python-day-5#tools)
-
-![alt text](https://thumbs.dreamstime.com/b/september-washington-dc-close-up-capital-bikeshare-bike-rental-system-residents-tourists-district-columbia-141486725.jpg)
-
+* [Project Introduction](https://github.com/davidellavalle/Capital-Bikeshare/blob/main/README.md#project-introduction)  
+* [Bikesharing - the domain](https://github.com/davidellavalle/Capital-Bikeshare/blob/main/README.md#bikesharing---the-domain)
+* [Exploratory analysis](https://github.com/davidellavalle/Capital-Bikeshare/blob/main/README.md#exploratory-analysis)
+* [Timeseries - Facebook Prophet](https://github.com/davidellavalle/Capital-Bikeshare/blob/main/README.md#timeseries---facebook-prophet)
+* [Flask App](https://github.com/davidellavalle/Capital-Bikeshare/blob/main/README.md#flask-app---to-be-extended)
+* [Data sources](https://github.com/davidellavalle/Capital-Bikeshare/blob/main/README.md#data-sources)
+* [Legal Terms](https://github.com/davidellavalle/Capital-Bikeshare/blob/main/README.md#legal-terms)
+  
 ## Project Introduction
 
 The project analysis is based on data pulled from Capital Bikeshare, a company that offers a bicycle sharing system in Washington, D.C.   
@@ -28,7 +33,7 @@ The project will focus on the following bulletpoints:
 - Most used Dock stations
 - The Impact of Covid on bike demand
 
-## Bikesharing
+## Bikesharing - the domain
 
 Bike sharing is a concept originating back to the 1960s when in Amsterdam the first bike share system "White Bikes" was implemented. 
 
