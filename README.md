@@ -11,7 +11,8 @@
 * [Legal Terms](https://github.com/davidellavalle/Capital-Bikeshare/blob/main/README.md#legal-terms)
 
 <p align="center">
-  <img src="https://thumbs.dreamstime.com/b/september-washington-dc-close-up-capital-bikeshare-bike-rental-system-residents-tourists-district-columbia-141486725.jpg">
+  <img src="https://thumbs.dreamstime.com/b/september-washington-dc-close-up-capital-bikeshare-bike-rental-system-residents-tourists-district-columbia-141486725.jpg![image](https://user-images.githubusercontent.com/73824871/110596839-1864fa80-8180-11eb-8ac7-1d0a9e0eea9b.png)
+">
 </p> 
 
   
