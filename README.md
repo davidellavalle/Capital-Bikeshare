@@ -77,10 +77,10 @@ Flask is a micro web framework written in python and used in web development. Th
 For this project I developed a simple app that predicts the bikes demand in the different hours and days of the year depending on the month, weekday, time, wether the day is a holiday or not and type of customers (member or casual). The app was then deployed using Heroku and can be found easily by clicking on this link.
 
 Step by step conteuction of the App
-* Building a Machine learning model.
+* Building a Machine learning model.  
 **Flask_app.ipynb**: The model has been built with AdaBoostRegressor and it is used here to resolve a regression problem: predict the demand of bikes.  
-Defining the input and target variables: the model has been trained with 5 features (hour, month, holiday, weekday, member type).
-Converting categorical features to binary (dummy) variables: Non-numerical features needed to be converted to binary variables prior to be fed to the machine learning algorithm. 
+Defining the input and target variables: the model has been trained with 5 features (hour, month, holiday, weekday, member type).  
+Converting categorical features to binary (dummy) variables: Non-numerical features needed to be converted to binary variables prior to be fed to the machine learning algorithm.  
 Webpage design: the webpage was designed with the corresponding features to make sure the mdoel understood the imported data and was able to provide me with an output (count).
 
 The model is finally saved as **model.pkl**
