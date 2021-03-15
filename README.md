@@ -68,7 +68,7 @@ From previous analysis 2020 shows a change in customer behaviour (more Casual th
 
 Facebook’s Prophet is a library designed to do Time Series forecasting and supports R and Python. 
 The predicting model has been fed with the data of 2018 and 2019 and it is providing predictions for the first 6 months of 2020.  
-This data was picked because Covid had not yet affected our society and I wanted to show the power of this tool in a standard/normal situation, where no unpredictable events had happened yet. This could be as well seen as a limit of predicting models.
+This data timeframe was picked because Covid had not yet affected our society and I wanted to show the power of this tool in a standard/normal situation, where no unpredictable event had happened yet.
 
 ## Flask App - to be extended
 
