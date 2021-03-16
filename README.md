@@ -78,7 +78,7 @@ For this project I developed a simple app that predicts the bikes demand dependi
 * month, 
 * weekday,
 * time, 
-* wether the day is a holiday or not 
+* wether the day is a holiday or not,
 * type of customers (member or casual). 
 
 The app was then deployed using Heroku and can be found easily by clicking on this [Flask App](xxxxxxxxx)
@@ -91,16 +91,16 @@ The model has been built with AdaBoostRegressor and it is used here to resolve a
 Defining the input and target variables: the model has been trained with 5 features (hour, month, holiday, weekday, member type).  
 Converting categorical features to binary (dummy) variables: Non-numerical features needed to be converted to binary variables prior to be fed to the machine learning algorithm.  
 Drop the count column and train the model with remaining features.
-SAve model
-Webpage design: the webpage was designed with the corresponding features to make sure the mdoel understood the imported data and was able to provide me with an output (count).
-
-The model is finally saved as **model.pkl**
+The model is finally saved as **model.pkl** - Python-pickling creates a serialized, byte-wise .pkl file that preserves a Python object precisely and exactly.
 
 * Create **Html file** - the front end
-Data input: The values taken into account by the model are imported directly from the user in the App webpage. 
-This means that when creating the Html file all features used to create the model must be present in the Html so that the user can import his preferences and the model can do its job.  
+
+For this task a [basic knowledge of Html](https://www.w3schools.com/html/html_basic.asp) is required.
+Webpage design: the webpage was designed with the necessary 5 features for the model to do its job and provide me with an output (count).
+Data input: The user import his preferences. 
 
 * Create a **Flask App** ([App.py])- It will implement the Html and deploy the model.
+
 Import all necessary libraries - panda, numpy, pickle, flask  
 Here I will open the model to be used later # model = pickle.load(open("model.pkl", "rb")  
 Create a day dict  
