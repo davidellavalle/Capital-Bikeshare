@@ -68,13 +68,47 @@ From previous analysis 2020 shows a change in customer behaviour (more Casual th
 
 Facebook’s Prophet is a library designed to do Time Series forecasting and supports R and Python. 
 The predicting model has been fed with the data of 2018 and 2019 and it is providing predictions for the first 6 months of 2020.  
-This data was picked because Covid had not yet affected our society and I wanted to show the power of this tool in a standard/normal situation, where no unpredictable events had happened yet. This could be as well seen as a limit of predicting models.
+This data timeframe was picked because Covid had not yet affected our society and I wanted to show the power of this tool in a standard/normal situation, where no unpredictable event had happened yet.
 
-## Flask App - to be extended
+## Flask App
 
 Flask is a micro web framework written in python and used in web development. The term 'microframework' means it does not require particular tools or libraries.
 
-For this project I developed a simple app that predicts the bikes demand in the different hours and days of the year depending on the month, weekday, time, wether the day is a holiday or not and type of customers (member or casual). The app was then deployed using Heroku and can be found easily by clicking on this link.
+For this project I developed a simple app that predicts the bikes demand depending on 5 main features: 
+* month, 
+* weekday,
+* time, 
+* wether the day is a holiday or not,
+* type of customers (member or casual). 
+
+The app was then deployed using Heroku and can be found easily by clicking on this [Flask App](xxxxxxxxx)
+
+Step by step:
+
+* Build a model - **Flask_app.ipynb**  
+
+The model has been built with AdaBoostRegressor and it is used here to resolve a regression problem: predict the demand of bikes.  
+Defining the input and target variables: the model has been trained with 5 features (hour, month, holiday, weekday, member type).  
+Converting categorical features to binary (dummy) variables: Non-numerical features needed to be converted to binary variables prior to be fed to the machine learning algorithm.  
+Drop the count column and train the model with remaining features.
+The model is finally saved as **model.pkl** - Python-pickling creates a serialized, byte-wise .pkl file that preserves a Python object precisely and exactly.
+
+* Create **Html file** - the front end
+
+For this task a [basic knowledge of Html](https://www.w3schools.com/html/html_basic.asp) is required.
+Webpage design: the webpage was designed with the necessary 5 features for the model to do its job and provide me with an output (count).
+Data input: The user import his preferences. 
+
+* Create a **Flask App** ([App.py])- It will implement the Html and deploy the model.
+
+Import all necessary libraries - panda, numpy, pickle, flask
+All flask related imported actions can be referred [here](https://flask.palletsprojects.com/en/1.1.x/quickstart/)
+Here I will open the model that will be used once the preferences of the user have been imported.   
+Create necessary dictionaries respecting dummy data created during building model  
+Create a predict function that receives all request values from the webpage  
+Create a data list - same format of information that the model is expecting(dummified data)  
+Create prediction from data (converted to integer)    
+Return the renderd_template   
 
 ## Data sources
 
