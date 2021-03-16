@@ -99,7 +99,7 @@ For this task a [basic knowledge of Html](https://www.w3schools.com/html/html_ba
 Webpage design: the webpage was designed with the necessary 5 features for the model to do its job and provide me with an output (count).
 Data input: The user import his preferences. 
 
-* Create a [**Flask App**]([https://github.com/davidellavalle/Capital-Bikeshare/blob/main/Flask_test/app.py])- It will implement the Html and deploy the model.
+* Create a [**Flask App**]([https://github.com/davidellavalle/Capital-Bikeshare/blob/main/Flask_test/app.py])- implement the Html and deploy the model.
 
 Import all necessary libraries - panda, numpy, pickle, flask
 All flask related imported actions can be referred [here](https://flask.palletsprojects.com/en/1.1.x/quickstart/)
