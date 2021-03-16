@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Predict Bike Share Count</title>
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+    
+  </head>
+
+<body>
+ <div class="login">
+  <h1>Predict Bike Share Count</h1>
+  <br>
+  <img src="https://cdn.pixabay.com/photo/2019/05/11/22/09/bike-sharing-4196725_960_720.jpg" alt="Bike" style="vertical-align:middle" width="300" height="200">
+  <br>
+  <br>
+  <br>
+  <!-- Form to enter new data for predictions  -->
+    <form action="{{ url_for('predict')}}"method="POST">
+
+        <label for="Hour">Hour of the Day (between 0 and 23):</label>
+        <input type="number" id="Hour" name="Hour" placeholder="Hour" required="required" min="0" max="23" value = "<?php if (isset($_POST['Hour'])) echo $_GET['Hour'];?>"><br>
+        
+        <br>
+        <label for="month">Month:</label>
+        <select name="month" id="Month">
+            <option value="January">January</option>
+            <option value="February">February</option>
+            <option value="March">March</option>
+            <option value="April">April</option>
+            <option value="May">May</option>
+            <option value="June">June</option>
+            <option value="July">July</option>
+            <option value="August">August</option>
+            <option value="September">September</option>
+            <option value="October">October</option>
+            <option value="November">November</option>
+            <option value="December">December</option>
+        </select>
+
+        <script type="text/javascript">
+          document.getElementById('month').value = "<?php if (isset($_POST['month'])) echo $_GET['month'];?>";
+        </script>
+
+        <br>
+
+        <br>
+        <label for="Day_Of_Week">Day_Of_Week:</label>
+        <select name="Day_Of_Week" id="Day_Of_Week">
+            <option value="Mon">Mon</option>
+            <option value="Tue">Tue</option>
+            <option value="Wed">Wed</option>
+            <option value="Thu">Thu</option>
+            <option value="Fri">Fri</option>
+            <option value="Sat">Sat</option>
+            <option value="Sun">Sun</option>
+        </select>
+
+        <script type="text/javascript">
+          document.getElementById('Day_Of_Week').value = "<?php if (isset($_POST['Day_Of_Week'])) echo $_GET['Day_Of_Week'];?>";
+        </script>
+
+        <br> 
+        <br>
+        <label for="Holiday">Holiday:</label>
+        <select name="Holiday" id="Holiday">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </select>
+
+        <script type="text/javascript">
+          document.getElementById('Holiday').value = "<?php if (isset($_POST['Holiday'])) echo $_GET['Holiday'];?>";
+        </script>
+
+        <br>
+        
+        <br>
+        <label for="Member_type">Member:</label>
+        <select name="Member_type" id="Member_type">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </select>
+
+        <script type="text/javascript">
+          document.getElementById('Member_type').value = "<?php if (isset($_POST['Member_type'])) echo $_GET['Member_type'];?>";
+        </script>
+
+        <br>
+        <br>
+
+        <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+    </form>
+
+   <br>
+   <br>
+   {{pred}}
+   
+ </div>
+ 
+
+</body>
+</html>
