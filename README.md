@@ -1,4 +1,4 @@
-# -Capital-Bikeshare
+# Capital-Bikeshare
 
 
 <p align="center">
@@ -33,7 +33,7 @@ The project will focus on the following bulletpoints:
 - Most used Dock stations
 - The Impact of Covid on bike demand
 
-## Bikesharing - the domain
+## Bikesharing evolution
 
 Bike sharing is a concept originating back to the 1960s when in Amsterdam the first bike share system "White Bikes" was implemented. 
 
@@ -46,7 +46,7 @@ The development of this business model was anyway slow to catch on until better 
 Nowadays the bike sharing is booming at an unprecedented rate, largely due to the reasonably low cost of the schemes, and how easy they are to implement compared with other transport infrastructure.
 The bike sharing market size has been valued at over $4 billion in 2018 with an estimated growth of 15% CAGR(Compounded Average Growth Rate) from 2019 to 2025.
 
-## Exploratory analysis
+## [Exploratory analysis](https://github.com/davidellavalle/Capital-Bikeshare/tree/main/2019)
 
 At first the focus was on the data for the years 2011-12, then more current data (2018, 2019 and March 2020) was taken into account.  
 After some basic cleaning I have proceeded with visualizations using different plots like barplots, scatterplots and lineplotsthat that lead me to discover the following paths:
@@ -64,13 +64,13 @@ Finally most of the rides seem to have a duration between 3 and 14 minutes.
 6. More considerations on the year 2020 will be added soon.  
 From previous analysis 2020 shows a change in customer behaviour (more Casual than members) demarking how unpredictable events (Covid) have a major influence on the demand of these services and the development of a business. 
 
-## Timeseries - Facebook Prophet
+## [Timeseries - Facebook Prophet](https://github.com/davidellavalle/Capital-Bikeshare/tree/main/Timeseries_and_forecasting)
 
 Facebook’s Prophet is a library designed to do Time Series forecasting and supports R and Python. 
 The predicting model has been fed with the data of 2018 and 2019 and it is providing predictions for the first 6 months of 2020.  
 This data timeframe was picked because Covid had not yet affected our society and I wanted to show the power of this tool in a standard/normal situation, where no unpredictable event had happened yet.
 
-## Flask App
+## [Building a Flask App](https://github.com/davidellavalle/Capital-Bikeshare/tree/main/Flask_test)
 
 Flask is a micro web framework written in python and used in web development. The term 'microframework' means it does not require particular tools or libraries.
 
@@ -85,7 +85,7 @@ The app was then deployed using Heroku and can be found easily by clicking on th
 
 Step by step:
 
-* Build a model - **Flask_app.ipynb**  
+* Build a model - [**Flask_app.ipynb**](https://github.com/davidellavalle/Capital-Bikeshare/blob/main/Flask_test/Flask_app.ipynb)
 
 The model has been built with AdaBoostRegressor and it is used here to resolve a regression problem: predict the demand of bikes.  
 Defining the input and target variables: the model has been trained with 5 features (hour, month, holiday, weekday, member type).  
@@ -93,13 +93,13 @@ Converting categorical features to binary (dummy) variables: Non-numerical featu
 Drop the count column and train the model with remaining features.
 The model is finally saved as **model.pkl** - Python-pickling creates a serialized, byte-wise .pkl file that preserves a Python object precisely and exactly.
 
-* Create **Html file** - the front end
+* Create [**Html file**](https://github.com/davidellavalle/Capital-Bikeshare/tree/main/Flask_test/templates) - the front end
 
 For this task a [basic knowledge of Html](https://www.w3schools.com/html/html_basic.asp) is required.
 Webpage design: the webpage was designed with the necessary 5 features for the model to do its job and provide me with an output (count).
 Data input: The user import his preferences. 
 
-* Create a **Flask App** ([App.py])- It will implement the Html and deploy the model.
+* Create a [**Flask App**]([https://github.com/davidellavalle/Capital-Bikeshare/blob/main/Flask_test/app.py])- It will implement the Html and deploy the model.
 
 Import all necessary libraries - panda, numpy, pickle, flask
 All flask related imported actions can be referred [here](https://flask.palletsprojects.com/en/1.1.x/quickstart/)
