@@ -101,13 +101,14 @@ Data input: The user import his preferences.
 
 * Create a **Flask App** ([App.py])- It will implement the Html and deploy the model.
 
-Import all necessary libraries - panda, numpy, pickle, flask  
-Here I will open the model to be used later # model = pickle.load(open("model.pkl", "rb")  
-Create a day dict  
+Import all necessary libraries - panda, numpy, pickle, flask
+All flask related imported actions can be referred [here](https://flask.palletsprojects.com/en/1.1.x/quickstart/)
+Here I will open the model that will be used once the preferences of the user have been imported.   
+Create necessary dictionaries respecting dummy data created during building model  
 Create a predict function that receives all request values from the webpage  
-Create a data list - same foramt of information that the model is expecting(dummified data)  
+Create a data list - same format of information that the model is expecting(dummified data)  
 Create prediction from data (converted to integer)    
-Return the renderd_template  
+Return the renderd_template   
 
 ## Data sources
 
