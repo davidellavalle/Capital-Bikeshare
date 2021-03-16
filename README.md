@@ -70,17 +70,28 @@ Facebook’s Prophet is a library designed to do Time Series forecasting and sup
 The predicting model has been fed with the data of 2018 and 2019 and it is providing predictions for the first 6 months of 2020.  
 This data timeframe was picked because Covid had not yet affected our society and I wanted to show the power of this tool in a standard/normal situation, where no unpredictable event had happened yet.
 
-## Flask App - to be extended
+## Flask App
 
 Flask is a micro web framework written in python and used in web development. The term 'microframework' means it does not require particular tools or libraries.
 
-For this project I developed a simple app that predicts the bikes demand in the different hours and days of the year depending on the month, weekday, time, wether the day is a holiday or not and type of customers (member or casual). The app was then deployed using Heroku and can be found easily by clicking on this link.
+For this project I developed a simple app that predicts the bikes demand depending on 5 main features: 
+* month, 
+* weekday,
+* time, 
+* wether the day is a holiday or not 
+* type of customers (member or casual). 
 
-Step by step conteuction of the App
-* Building a Machine learning model.  
-**Flask_app.ipynb**: The model has been built with AdaBoostRegressor and it is used here to resolve a regression problem: predict the demand of bikes.  
+The app was then deployed using Heroku and can be found easily by clicking on this [Flask App](xxxxxxxxx)
+
+Step by step:
+
+* Build a model - **Flask_app.ipynb**  
+
+The model has been built with AdaBoostRegressor and it is used here to resolve a regression problem: predict the demand of bikes.  
 Defining the input and target variables: the model has been trained with 5 features (hour, month, holiday, weekday, member type).  
 Converting categorical features to binary (dummy) variables: Non-numerical features needed to be converted to binary variables prior to be fed to the machine learning algorithm.  
+Drop the count column and train the model with remaining features.
+SAve model
 Webpage design: the webpage was designed with the corresponding features to make sure the mdoel understood the imported data and was able to provide me with an output (count).
 
 The model is finally saved as **model.pkl**
