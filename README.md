@@ -11,8 +11,8 @@
 * [Bikesharing evolution](https://github.com/davidellavalle/Capital-Bikeshare/blob/main/README.md#bikesharing---the-domain)
 * [Exploratory analysis](https://github.com/davidellavalle/Capital-Bikeshare/blob/main/README.md#exploratory-analysis)
 * [Timeseries - Facebook Prophet](https://github.com/davidellavalle/Capital-Bikeshare/blob/main/README.md#timeseries---facebook-prophet)
-* [Flask App](https://github.com/davidellavalle/Capital-Bikeshare/blob/main/README.md#flask-app---to-be-extended)
-* Tableau
+* [Flask App](https://github.com/davidellavalle/Capital-Bikeshare/blob/main/README.md#building-a-flask-app)
+* [Tableau](https://github.com/davidellavalle/Capital-Bikeshare/blob/main/README.md#tableau)
 * [Data sources](https://github.com/davidellavalle/Capital-Bikeshare/blob/main/README.md#data-sources)
 * [Legal Terms](https://github.com/davidellavalle/Capital-Bikeshare/blob/main/README.md#legal-terms)
   
