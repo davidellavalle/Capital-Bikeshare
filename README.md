@@ -8,7 +8,7 @@
 ## Table of contents
 
 * [Project Introduction](https://github.com/davidellavalle/Capital-Bikeshare/blob/main/README.md#project-introduction)  
-* [Bikesharing - the domain](https://github.com/davidellavalle/Capital-Bikeshare/blob/main/README.md#bikesharing---the-domain)
+* [Bikesharing evolution](https://github.com/davidellavalle/Capital-Bikeshare/blob/main/README.md#bikesharing---the-domain)
 * [Exploratory analysis](https://github.com/davidellavalle/Capital-Bikeshare/blob/main/README.md#exploratory-analysis)
 * [Timeseries - Facebook Prophet](https://github.com/davidellavalle/Capital-Bikeshare/blob/main/README.md#timeseries---facebook-prophet)
 * [Flask App](https://github.com/davidellavalle/Capital-Bikeshare/blob/main/README.md#flask-app---to-be-extended)
