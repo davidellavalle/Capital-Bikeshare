@@ -12,6 +12,7 @@
 * [Exploratory analysis](https://github.com/davidellavalle/Capital-Bikeshare/blob/main/README.md#exploratory-analysis)
 * [Timeseries - Facebook Prophet](https://github.com/davidellavalle/Capital-Bikeshare/blob/main/README.md#timeseries---facebook-prophet)
 * [Flask App](https://github.com/davidellavalle/Capital-Bikeshare/blob/main/README.md#flask-app---to-be-extended)
+* Tableau
 * [Data sources](https://github.com/davidellavalle/Capital-Bikeshare/blob/main/README.md#data-sources)
 * [Legal Terms](https://github.com/davidellavalle/Capital-Bikeshare/blob/main/README.md#legal-terms)
   
@@ -109,6 +110,11 @@ Create a predict function that receives all request values from the webpage
 Create a data list - same format of information that the model is expecting(dummified data)  
 Create prediction from data (converted to integer)    
 Return the renderd_template   
+
+## Tableau
+
+[Capital Bikeshare 2019 overview](https://public.tableau.com/profile/davide.della.valle#!/vizhome/CapitalBikeshare2019-RidesoverviewandCustomerbehaviour/Dashboard1)
+[Capital Bikeshare 2020 overview](https://public.tableau.com/profile/davide.della.valle#!/vizhome/CapitalBikeshare2020-RidesoverviewandCustomerbehaviour/Dashboard1)
 
 ## Data sources
 
